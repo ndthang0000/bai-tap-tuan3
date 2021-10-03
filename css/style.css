@@ -1,0 +1,219 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+img{
+    width: 100%;
+}
+.grid.wide{
+    border: 0.25px solid rgb(202, 200, 200);
+    padding: 0px 15px;
+    border-top: none;
+}
+.header{
+    align-items: center;
+    height: 80px;
+    overflow: hidden;
+}
+
+.header-name{
+    color: rgb(248, 84, 43);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.sub-header{
+    margin-left: 20px;
+    color: rgb(194, 182, 182);
+    font-size: 1.1rem;
+}
+.header-contact{
+    margin-right: 10px;
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(231, 79, 41);
+}
+.introduce{
+    padding: 50px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.introduce p{
+    margin-bottom: 10px;
+    color: #888;
+}
+.introduce-header{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.btn-area{
+    margin-top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 0.8rem;
+    color: rgb(83, 83, 83);
+    font-size: 1.2rem;
+    font-weight: 550;
+    border-radius: 30px;
+    display: inline-block;
+    border: 5px solid rgb(231, 231, 231);
+    cursor: pointer;
+}
+.btn-purchase{
+    background-color:  rgb(248, 84, 43);
+}
+.btn-take-a-tour{
+    background-color: #ecf0f1;
+}
+.slide-img{
+    border: 5px solid rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+}
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.arrow-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(240, 239, 239);
+    width: 45px;
+    height: 45px;
+}
+.arrow-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(240, 239, 239);
+    width: 45px;
+    height: 45px;
+}
+.feature-item{
+    display: flex;
+    align-items: flex-start;
+    justify-self: center;
+}
+.feature-item img{
+    flex-shrink: 1;
+    height: 100px;
+    width: 100px;
+}
+.feature{
+    padding: 50px 0px;
+}
+.feature-content h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.feature-content p{
+    color: rgb(121, 119, 119);
+}
+.check-out{
+    padding: 50px 0;
+}
+.check-out-header, .sreen-shot-header{
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 20px;
+}
+.check-out p{
+    font-size: 1rem;
+    color: #666;
+}
+.check-out-sub-item{
+    margin-left: 30px;
+    margin:7px 0px;
+    color: rgb(248, 84, 43);
+    cursor: pointer;
+}
+.bi-arrow-right-short{
+    font-weight: 600;
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: black;
+}
+.screen-shot{
+    padding: 50px 0px;
+}
+.screen-shot img{
+    border: 5px solid rgb(231, 231, 231);
+    box-shadow: 1px 2px 3px rgb(175, 175, 175);
+}
+.infor{
+    padding: 50px 0px;
+}
+.infor-header{
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.infor-content{
+    text-align: center;
+    padding: 20px 40px;
+    border: 1px solid #555;
+    padding-bottom: 30px;
+    position: relative;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -10px;
+    left: 80px;
+    background-color: white;
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #555;
+}
+.orthor{
+    position: absolute;
+    bottom: -40px;
+    left: 80px;
+}
+.footer{
+    background-color: #4b4b4b;
+    color: white;
+}
+.footer-header{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 30px 0px;
+    margin-left: 5px;
+}
+.footer-p{
+    color: rgb(204, 200, 200);
+}
+#footer{
+    text-align: center; color: aqua; background-color: black; color: rgb(204, 200, 200);
+    padding: 10px;
+}
